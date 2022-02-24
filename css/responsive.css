@@ -138,15 +138,19 @@
     }
     .header{
         display: none;
-        left: 30px;
-        left: 10px;
+        top: 60px;
+        left: 0;
+    }
+    .nav-bar ul {
+        display: block;
     }
     .nav-bar ul li a {
-        padding: 35px 25px;
-        font-size: 1.1rem;
+        padding: 40px 25px;
+        font-size: 1.3rem;
     }
     .nav-bar ul li a:hover {
-        background: transparent;
+       transform: scale(1);
+       background-color: transparent;
     }
     .chart li {
         margin: 10px 0;
@@ -174,14 +178,19 @@
         width: 70%;
     }
     .header{
-        left: 20px;
+        top: 60px;
+        left: -2px;
+    }
+    .nav-bar ul {
+        display: block;
     }
     .nav-bar ul li a {
-        padding: 35px 15px;
-        font-size: 1.1rem;
+        padding: 42px 25px;
+        font-size: 1.3rem;
     }
     .nav-bar ul li a:hover {
-        background: transparent;
+       transform: scale(1);
+       background-color: transparent;
     }
     .chart li {
         margin: 10px 0;
@@ -242,9 +251,6 @@
     .counter-number {
         padding: 60px;
     }
-    .header{
-        left: 20px;
-    }
     .sub-heading {
         padding-bottom:2px;
     }
@@ -252,12 +258,6 @@
         padding-bottom: 20px;
         line-height: 18px;
         width: 70%;
-    }
-    .nav-bar ul li a {
-        padding: 35px 12px;
-    }
-    .nav-bar ul li a:hover {
-        background: transparent;
     }
     .chart {
         width: 230px;
@@ -281,18 +281,19 @@
         padding: 60px;
     }
     .header{
-        top:30px;
-        left: 10px;
+        top: 60px;
+        left: -2px;
     }
     .nav-bar ul {
         display: block;
     }
-    .nav-bar ul li {
-        padding-top: 20px;
-        padding-right: 20px;
+    .nav-bar ul li a {
+        padding: 42px 25px;
+        font-size: 1.3rem;
     }
     .nav-bar ul li a:hover {
-        background: transparent;
+       transform: scale(1);
+       background-color: transparent;
     }
     .banner-content h1 {
         font-size: 3rem;
@@ -332,9 +333,6 @@
     .nav-bar ul li {
         padding-top: 16px;
     } 
-    .nav-bar ul li a:hover {
-        background: transparent;
-    }
     .about-us .sub-text {
         width: 50%;
         font-size: 1rem;
@@ -389,11 +387,6 @@
     .nav-bar ul li a {
         font-size: 0.90rem;
     }
-    .nav-bar ul li a:hover {
-        background: transparent;
-        color: #fff;
-        transform: scale(1.1);
-    }
     .chart {
         width: 180px;
         margin-top: 12px;
@@ -419,12 +412,7 @@
         padding: 55px;
     }
     .nav-bar ul li a {
-        font-size: 0.90rem;
-    }
-    .nav-bar ul li a:hover {
-        background: transparent;
-        color: #fff;
-        transform: scale(1.1);
+        font-size: 1rem;
     }
     .chart {
         width: 175px;
