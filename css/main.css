@@ -119,15 +119,17 @@ ul {
 	text-transform: capitalize;
 	font-weight: 500;
 	letter-spacing: 2px;
+	-webkit-transition:all .5s ease;
 }
 
 .nav-bar ul li a:hover{
-    transform: scale(1.1);
+  	transform: scale(1.1);
 	color: #fff;
 	background: transparent;
 	-webkit-transition:all .5s ease;
 	transition:all .5s ease;
 }
+
 .menu {
 	display: none;
 }
