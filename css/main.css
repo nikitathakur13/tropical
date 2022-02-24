@@ -215,6 +215,10 @@ h1~p {
 /********** ABOUT US ENDS **********/
 
 /********** TROPICAL PARADISE IMG START **********/
+.tropical-paradise-slider {
+	padding: 80px 0;
+}
+
 .img-wrapper img {
 	max-width: 100%;
 	display: block;
@@ -253,6 +257,7 @@ h1~p {
 	letter-spacing: 1px;
 	text-transform: capitalize;
 	color: #7e7e7e;
+	display: inline-block;
 }
 
 .bar {
@@ -271,24 +276,36 @@ h1~p {
 	background: #7e7e7e;
 }
 
+.percentage {
+	color: #7e7e7e;
+	font-size: 0.85rem;
+	font-weight: 600;
+	display: inline-block;
+	float: right;
+}
+
+.percentage-sign {
+	font-size: 0.75rem;
+}
+
 .designing {
 	width: 95%;
-	animation: designing 3s;
+	animation: designing 5s;
 }
 
 .development {
-	width: 70%;
-	animation: development 3s;
-}
-
-.brainstorming {
-	width: 68%;
-	animation: brainstorming 3s;
+	width: 50%;
+	animation: development 5s;
 }
 
 .managment {
 	width: 90%;
-	animation: managment 3s;
+	animation: managment 5s;
+}
+
+.brainstorming {
+	width: 58%;
+	animation: brainstorming 5s;
 }
 
 .box .graph {
@@ -353,7 +370,7 @@ h1~p {
 	}
 
 	100% {
-		width: 70%;
+		width: 50%;
 	}
 }
 
@@ -363,7 +380,7 @@ h1~p {
 	}
 
 	100% {
-		width: 68%;
+		width: 58%;
 	}
 }
 
@@ -469,7 +486,7 @@ h1~p {
 
 /********** FOOTER STARTS **********/
 .footer {
-	background: #E6E1CA;
+	background: #f5f5f5;
 	padding: 80px 0;
 	color: #7e7e7e;
 }
@@ -504,9 +521,8 @@ h1~p {
 	max-width: 100%;
 	border: 1px solid #fff;
 	padding: 10px;
-	text-transform: uppercae;
 	width: 100%;
-	color: #A69A60;
+	color: #7e7e7e;
 	transition: all ease .5s;
 }
 
@@ -514,12 +530,29 @@ h1~p {
 	display: block;
 	margin-top: 16px;
 	cursor: pointer;
+	text-transform:uppercase;
+}
+
+::placeholder { 
+	color: #7e7e7e;
+	text-transform:capitalize;
+	font-size:0.78rem;
+}
+:-ms-input-placeholder { 
+	color: #7e7e7e;
+	text-transform:capitalize;
+	font-size:0.78rem;
+}  
+::-ms-input-placeholder {
+	color: #7e7e7e;
+	text-transform:capitalize;
+	font-size:0.78rem;
 }
 
 .footer-btn:hover,
 .footer-form:hover {
-	background: #A69A60;
-	color: #E6E1CA;
+	background: #7e7e7e;
+	color: #f5f5f5;
 	border: none;
 }
 

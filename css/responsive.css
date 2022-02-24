@@ -34,7 +34,6 @@
         width: 80%;
         margin: 0px auto;
         line-height: 1.7;
-        padding-bottom: 60px;
     }
     .chart {
         width: 400px;
@@ -128,6 +127,12 @@
     body {
         overflow-x: hidden;
     }
+    .about-us, .tropical-paradise-slider, .our-services, .our-team, .our-work, .our-portfolio, .footer {
+        padding: 60px 0;
+    }
+    .counter-number {
+        padding: 60px;
+    }
     .menu-bars {
         display: inline-block;
     }
@@ -153,6 +158,12 @@
     }
     body {
         overflow-x: hidden;
+    }
+    .about-us, .tropical-paradise-slider, .our-services, .our-team, .our-work, .our-portfolio {
+        padding: 60px 0;
+    }
+    .counter-number {
+        padding: 60px;
     }
     .sub-heading {
         padding-bottom:4px;
@@ -225,6 +236,12 @@
     body {
         overflow-x: hidden;
     }
+    .about-us, .tropical-paradise-slider, .our-services, .our-team, .our-work, .our-portfolio, .footer {
+        padding: 60px 0;
+    }
+    .counter-number {
+        padding: 60px;
+    }
     .header{
         left: 20px;
     }
@@ -256,6 +273,12 @@
     }
     body {
         overflow-x: hidden;
+    }
+    .about-us, .tropical-paradise-slider, .our-services, .our-team, .our-work, .our-portfolio, .footer {
+        padding: 60px 0;
+    }
+    .counter-number {
+        padding: 60px;
     }
     .header{
         top:30px;
@@ -292,10 +315,10 @@
     body {
         overflow-x: hidden;
     }
-    .about-us, .our-services, .our-team, .our-work{
+    .about-us, .tropical-paradise-slider, .our-services, .our-team, .our-work, .our-portfolio, .footer {
         padding: 60px 0;
     }
-    .counter-number{
+    .counter-number {
         padding: 60px;
     }
     .heading-text{
@@ -357,6 +380,12 @@
     body {
         overflow-x: hidden;
     }
+    .about-us, .tropical-paradise-slider, .our-services, .our-team, .our-work, .our-portfolio, .footer {
+        padding: 60px 0;
+    }
+    .counter-number {
+        padding: 60px;
+    }
     .nav-bar ul li a:hover {
         background: transparent;
     }
@@ -378,6 +407,12 @@
     body {
         overflow-x: hidden;
     }
+    .about-us, .tropical-paradise-slider, .our-services, .our-team, .our-work, .our-portfolio, .footer {
+        padding: 55px 0;
+    }
+    .counter-number {
+        padding: 55px;
+    }
     .nav-bar ul li a:hover {
         background: transparent;
         color: #fff;
@@ -397,6 +432,12 @@
     body {
         overflow-x: hidden;
     }
+    .about-us, .tropical-paradise-slider, .our-services, .our-team, .our-work, .our-portfolio, .footer {
+        padding: 50px 0;
+    }
+    .counter-number {
+        padding: 50px;
+    }
     .nav-bar ul li a:hover {
         background: transparent;
     }
@@ -414,6 +455,12 @@
     }
     body {
         overflow-x: hidden;
+    }
+    .about-us, .tropical-paradise-slider, .our-services, .our-team, .our-work, .our-portfolio, .footer {
+        padding: 50px 0;
+    }
+    .counter-number {
+        padding: 50px;
     }
     .nav-bar ul li a:hover {
         background: transparent;
