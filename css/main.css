@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css?family=Radley');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	outline: none;
+}
+
+html {
+	font-size: 1rem;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.clearfix:after,
+.clearfix:before {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.container-fluid {
+	padding-right: 0rem;
+	padding-left: 0rem;
+	max-width: 100%;
+}
+
+.btn {
+	font-size: 0.75rem;
+	font-weight: 700;
+	border: 1px solid #fff;
+	color: #fff;
+	line-height: 1.7;
+	background: transparent;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	width: 120px;
+	padding: 10px;
+	margin-right: 16px;
+	cursor: pointer;
+	border-radius: 0%;
+}
+
+.btn:hover {
+	color: #A6A186;
+	background: #fff;
+	-webkit-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+.heading {
+	letter-spacing: 2px;
+	text-transform: capitalize;
+	color: #A69A60;
+	font-size: 2rem;
+}
+
+.sub-heading {
+	color: #7e7e7e;
+	opacity: 0.9;
+	font-family: 'Radley', sans-serif;
+	font-size: 0.87rem;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	padding-bottom: 8px;
+}
+
+.heading-text {
+	color: #7e7e7e;
+	font-family: 'Radley', sans-serif;
+	font-size: 1.2rem;
+	line-height: 30px;
+	font-style: italic;
+	font-weight: 400;
+	margin: 0px auto;
+	padding-bottom: 80px;
+	display: block;
+	width: 75%;
+}
+
+.sub-text {
+	font-size: 0.90rem;
+	color: #7e7e7e;
+	line-height: 1.4;
+}
+
+/********** HEADER STARTS **********/
+.header {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	display: flex;
+}
+
+.nav-bar ul li a {
+	color: #fff;
+	padding: 35px 30px;
+	text-transform: capitalize;
+	font-weight: 500;
+	letter-spacing: 2px;
+}
+
+.nav-bar ul li a:hover{
+    color: #A6A186;
+	-webkit-transition:all .5s ease;
+	transition:all .5s ease;
+}
+.menu {
+	display: none;
+}
+
+/********** HEADER ENDS **********/
+
+/********** HAMBURGER MENU STARTS **********/
+.menu-bars {
+	position: absolute;
+	top: 25px;
+	left: 20px;
+	z-index: 10;
+	display: none;
+	cursor: pointer;
+}
+
+.bar-1,
+.bar-2,
+.bar-3 {
+	width: 30px;
+	height: 2px;
+	background-color: #fff;
+	margin: 8px 0;
+	transition: 0.4s;
+}
+
+.open-menu .bar-1 {
+	transform: rotate(-45deg) translate(-7px, 8px);
+	/* Rotate first bar */
+}
+
+.open-menu .bar-2 {
+	opacity: 0;
+	/* Fade out the second bar */
+}
+
+.open-menu .bar-3 {
+	transform: rotate(45deg) translate(-6px, -8px);
+	/* Rotate last bar */
+}
+
+/********** HAMBURGER MENU ENDS **********/
+
+/********** TOP BANNER STARTS **********/
+.top-banner {
+	background: url('../images/banner.jpg') no-repeat center center;
+	background-size: cover;
+	color: #fff;
+	padding-top: 250px;
+	padding-bottom: 250px;
+}
+
+.banner-content img {
+	max-width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.banner-content h1 {
+	padding-top: 20px;
+	color: #fff;
+	font-weight: 700;
+	font-size: 5rem;
+}
+
+h1~p {
+	color: #fff;
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+/********** TOP BANNER ENDS **********/
+
+/********** ABOUT US STARTS **********/
+.about-us {
+	padding: 80px 0;
+}
+
+.about-us img {
+	max-width: 15%;
+	padding-bottom: 16px;
+	margin: 0px auto;
+}
+
+/********** ABOUT US ENDS **********/
+
+/********** TROPICAL PARADISE IMG START **********/
+.img-wrapper img {
+	max-width: 100%;
+	display: block;
+}
+
+/********** TROPICAL PARADISE IMG ENDS **********/
+
+/********** OUR SERVICES STARTS **********/
+.our-services {
+	padding: 80px 0;
+}
+
+.our-services p {
+	color: #7e7e7e;
+	line-height: 1.4;
+	font-weight: 400;
+	padding-bottom: 20px;
+	text-align: justify;
+	font-size: 1.2rem;
+}
+
+.chart {
+	width: 550px;
+	color: #A69A60;
+	padding: 10px;
+}
+
+.chart li {
+	margin: 14px 0;
+	padding: 10px;
+	list-style: none;
+}
+
+.chart h3 {
+	font-size: 1rem;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	color: #7e7e7e;
+}
+
+.bar {
+	background: #E6E1CA;
+	display: block;
+	height: 14px;
+	border: 1px soild rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	overflow: hidden;
+	transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.bar span {
+	height: 14px;
+	float: left;
+	background: #7e7e7e;
+}
+
+.designing {
+	width: 95%;
+	animation: designing 3s;
+}
+
+.development {
+	width: 70%;
+	animation: development 3s;
+}
+
+.brainstorming {
+	width: 68%;
+	animation: brainstorming 3s;
+}
+
+.managment {
+	width: 90%;
+	animation: managment 3s;
+}
+
+.box .graph {
+	position: relative;
+	width: 150px;
+	height: 150px;
+}
+
+.box .graph svg {
+	position: relative;
+	width: 150px;
+	height: 150px;
+}
+
+.box .graph svg circle {
+	width: 150px;
+	height: 150px;
+	fill: none;
+	stroke-width: 10;
+	stroke: #7e7e7e;
+	transform: translate(5px, 5px);
+}
+
+.box .graph .number {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #A69A60;
+}
+
+.box .graph .number h6 {
+	font-size: 1.5rem;
+}
+
+.box .graph .number h6 span {
+	font-size: 1rem;
+}
+
+.box .text {
+	padding: 10px 0 0;
+	color: #A6A186;
+}
+
+@keyframes designing {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 95%;
+	}
+}
+
+@keyframes development {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 70%;
+	}
+}
+
+@keyframes brainstorming {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 68%;
+	}
+}
+
+@keyframes managment {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 90%;
+	}
+}
+
+/********** OUR SERVICES ENDS **********/
+
+/********** OUR TEAM STARTS **********/
+.our-team {
+	padding: 80px 0;
+	background: #f5f5f5;
+}
+
+.team-wrapper img {
+	max-width: 100%;
+	padding-bottom: 16px;
+	padding-top: 80px;
+	-webkit-transition: transform .3s ease;
+	transition: transform .3s ease;
+}
+
+.team-wrapper img:hover {
+	transform: scale(1.1);
+}
+
+.team-wrapper h4 {
+	font-size: 1.2rem;
+}
+
+.team-wrapper p {
+	font-weight: 300;
+	color: #7e7e7e;
+}
+
+/********** OUR TEAM ENDS **********/
+
+/********** OUR WORK STARTS **********/
+.our-work {
+	padding: 80px 0;
+}
+
+.icon-img img {
+	float: left;
+	width: 10%;
+	margin-right: 20px;
+	margin-top: 4px;
+	transition: all ease .5s;
+}
+
+.icon-title {
+	overflow: hidden;
+}
+
+.icon-title h4 {
+	text-align: justify;
+}
+
+.icon-title p {
+	padding-bottom: 20px;
+	text-align: justify;
+}
+
+/********** OUR WORK ENDS **********/
+
+/********** OUR PORTFOLIO STARTS **********/
+.our-portfolio {
+	padding: 80px 0;
+	background: #f5f5f5;
+}
+
+.our-portfolio img {
+	max-width: 100%;
+	display: block;
+}
+
+/********** OUR PORTFOLIO ENDS **********/
+
+/********** COUNTER NUMBER STARTS **********/
+.counter-number {
+	padding: 80px;
+}
+
+.counter-number-content h1 {
+	font-size: 3rem;
+}
+
+.counter-number-content span {
+	color: #7e7e7e;
+	font-weight: 500;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+}
+
+/********** COUNTER NUMBER ENDS **********/
+
+/********** FOOTER STARTS **********/
+.footer {
+	background: #E6E1CA;
+	padding: 80px 0;
+	color: #7e7e7e;
+}
+
+.footer-heading {
+	font-size: 2rem;
+	color: #7e7e7e;
+	font-weight: 500;
+	padding-bottom: 16px;
+}
+
+.about-us-wrapper li {
+	line-height: 2.5;
+	color: #7e7e7e;
+	font-weight: 300;
+	font-size: 1rem;
+	list-style: none;
+}
+
+.about-us-wrapper i {
+	margin-right: 10px;
+}
+
+.our-office-wrapper img {
+	max-width: 100%;
+}
+
+.footer-form,
+.footer-btn {
+	border: none;
+	background: transparent;
+	max-width: 100%;
+	border: 1px solid #fff;
+	padding: 10px;
+	text-transform: uppercae;
+	width: 100%;
+	color: #A69A60;
+	transition: all ease .5s;
+}
+
+.footer-btn {
+	display: block;
+	margin-top: 16px;
+	cursor: pointer;
+}
+
+.footer-btn:hover,
+.footer-form:hover {
+	background: #A69A60;
+	color: #E6E1CA;
+	border: none;
+}
+
+/********** FOOTER ENDS **********/

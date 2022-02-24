@@ -1,0 +1,442 @@
+@media only screen and (max-width:1200px){
+    html{
+        font-size: 0.98rem;
+    }
+    .heading {
+        font-size: 1.7rem;
+    }
+}
+@media only screen and (max-width:1023px){
+    html{
+        font-size: 0.90rem;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .heading {
+        font-size: 1.8rem;
+    }
+    .banner-content h1{
+        font-size:4rem;
+    }
+    .icon-title h4 {
+        font-size: 1.4rem;
+    }
+}
+@media only screen and (max-width:991px) {
+    html{
+        font-size: 0.88rem;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .about-us .sub-text {
+        width: 80%;
+        margin: 0px auto;
+        line-height: 1.7;
+        padding-bottom: 60px;
+    }
+    .chart {
+        width: 400px;
+    }
+    .chart li {
+        margin: 16px 0;
+    }
+    .bar {
+        height: 10px;
+    }
+    .bar span {
+        height: 10px;
+    }
+    .team-wrapper h4{
+        font-size:1rem;
+    }
+    .footer-wrapper {
+        padding: auto 20px;
+    }
+}
+@media only screen and (max-width:810px) {
+    html {
+        font-size: 0.86rem;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .heading-text {
+        line-height: 28px;
+        width: 80%;
+    }
+    .chart {
+        width: 390px;
+        margin-top: 22px;
+    }
+    .chart li {
+        margin: 14px 0;
+    }
+    .bar {
+        height: 8px;
+    }
+    .bar span {
+        height: 8px;
+    }
+}
+@media only screen and (max-width:781px) {
+    html{
+        font-size: 0.80rem;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .chart {
+        width: 360px;
+    }
+    .chart li {
+        margin: 12px 0;
+    }
+}
+@media only screen and (max-width:767px) {
+    html{
+        font-size: 0.70rem;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .heading-text{
+        line-height: 22px;
+    }
+    .our-services p{
+        font-size:1.1rem;
+    }
+    .chart {
+        width: 300px;
+        margin-top: -10px;
+    }
+    .chart li {
+        margin: 14px 0;
+    }
+    .bar {
+        height: 6px;
+    }
+    .bar span {
+        height: 6px;
+    }
+}
+@media only screen and (max-width:688px) {
+    html{
+        font-size: 0.65rem;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .menu-bars {
+        display: inline-block;
+    }
+    .header{
+        display: none;
+        left: 30px;
+        left: 10px;
+    }
+    .nav-bar ul li a {
+        padding: 35px 25px;
+        font-size: 1.1rem;
+    }
+    .nav-bar ul li a:hover {
+        background: transparent;
+    }
+    .chart li {
+        margin: 10px 0;
+    }
+}
+@media only screen and (max-width:573px) {
+    html{
+        font-size: 0.64rem;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .sub-heading {
+        padding-bottom:4px;
+    }
+    .heading-text{
+        padding-bottom: 40px;
+        line-height: 20px;
+        width: 70%;
+    }
+    .header{
+        left: 20px;
+    }
+    .nav-bar ul li a {
+        padding: 35px 15px;
+        font-size: 1.1rem;
+    }
+    .nav-bar ul li a:hover {
+        background: transparent;
+    }
+    .chart li {
+        margin: 10px 0;
+    }
+    .bar-1,
+    .bar-2,
+    .bar-3 {
+	    height: 1px;
+    }
+    .open-menu .bar-1 {
+        transform: rotate(-45deg) translate(-9px, 5px);
+    }
+    .open-menu .bar-3 {
+        transform: rotate(45deg) translate(-7px, -5px);
+    }
+    .about-us img{
+        max-width:8%;
+    }
+    .about-us p {
+       font-size: 1.3rem;
+    }
+    .our-services {
+       margin-left: 20px;
+    }
+    .our-services p{
+        font-size:0.90rem;
+    }
+    .chart {
+        width: 260px;
+        margin-top: 6px;
+    }
+    .chart li {
+        margin: -5px 0;
+    }
+    .bar {
+        height: 4px;
+    }
+    .bar span {
+        height: 4px;
+    }
+    .icon-content {
+        margin: auto 20px;
+    }
+    .footer{
+        padding: 80px 40px;
+    }
+}
+@media only screen and (max-width:526px) {
+    html{
+        font-size: 0.62rem;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .header{
+        left: 20px;
+    }
+    .sub-heading {
+        padding-bottom:2px;
+    }
+    .heading-text{
+        padding-bottom: 20px;
+        line-height: 18px;
+        width: 70%;
+    }
+    .nav-bar ul li a {
+        padding: 35px 12px;
+    }
+    .nav-bar ul li a:hover {
+        background: transparent;
+    }
+    .chart {
+        width: 230px;
+        margin-top: 8px;
+    }
+    .counter-number-content {
+       padding: 10px;
+    }
+}
+@media only screen and (max-width:496px) {
+    html{
+        font-size: 0.60rem;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .header{
+        top:30px;
+        left: 10px;
+    }
+    .nav-bar ul {
+        display: block;
+    }
+    .nav-bar ul li {
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+    .nav-bar ul li a:hover {
+        background: transparent;
+    }
+    .banner-content h1 {
+        font-size: 3rem;
+    }
+    .banner-content p {
+        font-size: 2rem;
+    }
+    .btn{
+        width: 90px;
+        padding: 8px;
+    }
+    .chart {
+        margin-top: 16px;
+    }
+}
+@media only screen and (max-width:428px) {
+    html{
+        font-size: 0.60rem;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .about-us, .our-services, .our-team, .our-work{
+        padding: 60px 0;
+    }
+    .counter-number{
+        padding: 60px;
+    }
+    .heading-text{
+        padding-bottom: 40px;
+        line-height: 18px;
+        width: 85%;
+    }
+    .header{
+        top:35px;
+    }
+    .nav-bar ul li {
+        padding-top: 16px;
+    } 
+    .nav-bar ul li a:hover {
+        background: transparent;
+    }
+    .about-us .sub-text {
+        width: 50%;
+        font-size: 1rem;
+    }
+    .about-us img{
+        max-width:14%;
+    }
+    .about-us h4{
+        font-size: 1.5rem;
+    }
+    .chart {
+        width: 200px;
+        margin-top: 20px;
+    }
+    .bar {
+        height: 3px;
+    }
+    .bar span {
+        height: 3px;
+    }
+    .team-wrapper img{
+        padding-top:40px;
+        max-width:90%;
+    }
+    .icon-img img{
+        margin-right: 12px;
+    }
+    .footer {
+        padding: 0 0 40px 0;
+    }
+    .footer-wrapper {
+        text-align: center;
+    }
+    .footer-heading {
+        padding-bottom: 16px;
+        padding-top: 40px;
+    }
+}
+@media only screen and (max-width:412px) {
+    html{
+        font-size: 0.55rem;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .nav-bar ul li a:hover {
+        background: transparent;
+    }
+    .chart {
+        width: 180px;
+        margin-top: 12px;
+    }
+    .bar {
+        height: 3px;
+    }
+    .bar span {
+        height: 3px;
+    }
+}
+@media only screen and (max-width:390px) {
+    html{
+        font-size: 0.53rem;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .nav-bar ul li a:hover {
+        background: transparent;
+        color: #fff;
+    }
+    .chart {
+        width: 175px;
+        margin-top: 18px;
+    }
+    .chart li {
+        margin: -8px 0;
+    }
+}
+@media only screen and (max-width:384px) and (min-width:375) {
+    html{
+        font-size: 0.53rem;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .nav-bar ul li a:hover {
+        background: transparent;
+    }
+    .heading-text {
+        line-height: 18px;
+    }
+    .chart {
+        width: 160px;
+        margin-top: 22px;
+    }
+}
+@media only screen and (max-width:360px) {
+    html{
+        font-size: 0.50rem;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .nav-bar ul li a:hover {
+        background: transparent;
+    }
+    .chart {
+        width: 158px;
+        margin-left: -6px;
+    }
+    .heading {
+        font-size: 1.8rem;
+    }
+    .sub-heading {
+        font-size: 0.80rem;
+    }
+    .heading-text {
+        line-height: 14px;
+    }
+    .nav-bar ul li {
+        padding-top: 18px;
+    } 
+    .btn{
+        width: 70px;
+        padding: 8px;
+    }
+}
+
