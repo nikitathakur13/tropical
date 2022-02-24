@@ -386,8 +386,13 @@
     .counter-number {
         padding: 60px;
     }
+    .nav-bar ul li a {
+        font-size: 0.90rem;
+    }
     .nav-bar ul li a:hover {
         background: transparent;
+        color: #fff;
+        transform: scale(1.1);
     }
     .chart {
         width: 180px;
@@ -413,9 +418,13 @@
     .counter-number {
         padding: 55px;
     }
+    .nav-bar ul li a {
+        font-size: 0.90rem;
+    }
     .nav-bar ul li a:hover {
         background: transparent;
         color: #fff;
+        transform: scale(1.1);
     }
     .chart {
         width: 175px;

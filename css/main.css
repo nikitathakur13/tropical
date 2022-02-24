@@ -122,7 +122,9 @@ ul {
 }
 
 .nav-bar ul li a:hover{
-    color: #A6A186;
+    transform: scale(1.1);
+	color: #fff;
+	background: transparent;
 	-webkit-transition:all .5s ease;
 	transition:all .5s ease;
 }
