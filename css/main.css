@@ -212,7 +212,7 @@ h1~p {
 
 .about-us img {
 	max-width: 15%;
-	padding-bottom: 16px;
+	padding: 20px 0;
 	margin: 0px auto;
 }
 
@@ -500,9 +500,10 @@ h1~p {
 	color: #7e7e7e;
 	font-weight: 500;
 	padding-bottom: 16px;
+	padding-left: 10px;
 }
 
-.about-us-wrapper li {
+.about-us-wrapper i, .about-us-wrapper li{
 	line-height: 2.5;
 	color: #7e7e7e;
 	font-weight: 300;
@@ -511,7 +512,7 @@ h1~p {
 }
 
 .about-us-wrapper i {
-	margin-right: 10px;
+	margin-right: 12px;
 }
 
 .our-office-wrapper img {
@@ -522,19 +523,20 @@ h1~p {
 .footer-btn {
 	border: none;
 	background: transparent;
+	text-transform:capitalize;
 	max-width: 100%;
-	border: 1px solid #fff;
+	border: 1px solid #7e7e7e;
 	padding: 10px;
 	width: 100%;
 	color: #7e7e7e;
 	transition: all ease .5s;
+	letter-spacing: 1px;
 }
 
 .footer-btn {
 	display: block;
 	margin-top: 16px;
 	cursor: pointer;
-	text-transform:uppercase;
 }
 
 ::placeholder { 
@@ -553,11 +555,9 @@ h1~p {
 	font-size:0.78rem;
 }
 
-.footer-btn:hover,
-.footer-form:hover {
-	background: #7e7e7e;
+.footer-btn:hover {
+	background-color: #7e7e7e;
 	color: #f5f5f5;
-	border: none;
 }
 
 /********** FOOTER ENDS **********/

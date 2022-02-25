@@ -19,6 +19,18 @@
     .banner-content h1{
         font-size:4rem;
     }
+    .chart {
+        width: 450px;
+    }
+    .chart li {
+        margin: 10px 0;
+    }
+    .bar {
+        height: 11px;
+    }
+    .bar span {
+        height: 11px;
+    }
     .icon-title h4 {
         font-size: 1.4rem;
     }
@@ -64,6 +76,9 @@
     .heading-text {
         line-height: 28px;
         width: 80%;
+    }
+    .about-us img {
+        padding: 20px 0;
     }
     .chart {
         width: 390px;
@@ -119,6 +134,29 @@
     .bar span {
         height: 6px;
     }
+    .counter-number {
+        padding: 60px;
+    }
+    .counter-number-content h1 {
+       padding-top: 20px;
+    }
+    .footer-wrapper {
+        text-align: center;
+    }
+    .footer-heading {
+        padding-top: 20px;
+    }
+    .footer-form,
+    .footer-btn {
+        width: 50%;
+        margin: 0px auto;
+    }
+    .footer-btn {
+        margin-top: 16px;
+    }
+    .about-us-wrapper i {
+        margin-right: 10px;
+    }
 }
 @media only screen and (max-width:688px) {
     html{
@@ -167,7 +205,7 @@
         padding: 60px 0;
     }
     .counter-number {
-        padding: 60px;
+        padding: 55px;
     }
     .sub-heading {
         padding-bottom:4px;
@@ -249,7 +287,7 @@
         padding: 60px 0;
     }
     .counter-number {
-        padding: 60px;
+        padding: 55px;
     }
     .sub-heading {
         padding-bottom:2px;
@@ -278,7 +316,7 @@
         padding: 60px 0;
     }
     .counter-number {
-        padding: 60px;
+        padding: 55px;
     }
     .header{
         top: 60px;
@@ -320,7 +358,7 @@
         padding: 60px 0;
     }
     .counter-number {
-        padding: 60px;
+        padding: 55px;
     }
     .heading-text{
         padding-bottom: 40px;
@@ -382,7 +420,7 @@
         padding: 60px 0;
     }
     .counter-number {
-        padding: 60px;
+        padding: 55px;
     }
     .nav-bar ul li a {
         font-size: 0.90rem;
@@ -413,6 +451,7 @@
     }
     .nav-bar ul li a {
         font-size: 1.2rem;
+        font-weight: 500;
     }
     .chart {
         width: 175px;
